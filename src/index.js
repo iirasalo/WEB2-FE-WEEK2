@@ -24,7 +24,8 @@ function foo(a, b) {
 
 // 1. Remove the word "function" and place arrow between the argument and opening body bracket
 const foo = (a, b) => {
-  return 100;
+  const c = a * b;
+  return c + 100;
 };
 
 // 2. Remove the body braces and word "return" — the return is implied.
