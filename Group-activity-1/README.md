@@ -7,9 +7,11 @@
 1. Convert the followings to Arrow function:
 
 ```js
-function add(a, b) {
-  return a + b;
-}
+// function add(a, b) {
+//  return a + b;
+// }
+
+add(a, b) => a + b;
 console.log(add(2, 3));
 ```
 
@@ -17,6 +19,8 @@ console.log(add(2, 3));
 function square(n) {
   return n * n;
 }
+
+
 console.log(square(3));
 ```
 
